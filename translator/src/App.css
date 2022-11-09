@@ -1,0 +1,77 @@
+.app__content {
+  width: 600px;
+  height: 400px;
+  background: #f3f3f4;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+  position: absolute;
+  top: calc(50% - 200px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__textarea {
+  width: 90%;
+  height: 50%;
+  display: flex;
+}
+
+.app__textarea textarea {
+  width: 300px;
+  resize: none;
+  border: 1px solid #d0cbcb;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.app__textarea textarea::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app__textarea textarea:nth-of-type(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 1px;
+}
+
+.app__textarea textarea:nth-of-type(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.app__selection-form {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #d0cbcb;
+}
+
+.app__select select {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 19px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.app__content button {
+  background: #543ff7;
+  color: #fff;
+  font-size: 18px;
+  width: 80%;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
